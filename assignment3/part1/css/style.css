@@ -29,4 +29,15 @@ h2 {
     font-size: 1.5rem;
 }
 
+ul {
+    background-color: white;
+    border: 5px solid purple;
+    padding: 30px;
+    border-radius: 20px;
+    list-style-type: none;
+}
 
+.job-title {
+    color: darkslategray;
+    font-weight: bold;
+}
