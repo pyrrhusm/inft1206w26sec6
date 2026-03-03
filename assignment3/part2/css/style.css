@@ -4,15 +4,27 @@ File: style.css
 Date: 2 March 2026
 */
 
+@import "https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Open+Sans:wght@400;700&display=swap";
+
+/* General setup */
+
+html {
+  font-size: 10px;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  background-color: #fcfcfc;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
   margin: 0 auto;
   padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
+  max-width: 800px;
 }
 
 /* Layout */
