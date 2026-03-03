@@ -87,3 +87,25 @@ ul {
 li {
   margin-bottom: 1rem;
 }
+
+/* Links and Images */
+
+a {
+  color: #2a4d69;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #4b86b4;
+  text-decoration: none;
+}
+
+/* Ensure the image looks good */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 2rem auto;
+}
