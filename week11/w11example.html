@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 11</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <style>
+        /* CSS Style Sheet */
+        body {
+            max-width: 1800px;
+            margin: 0 auto;
+
+        }
+    </style> -->
+</head>
+<body>
+    <header>
+        <h1>Week 11: Introduction to Forms</h1>
+    </header>
+
+    <main>
+        <form action="#" method="get">
+            <div>
+                <label for="fname">First Name: </label>
+                <input type="text" name="fname" id="fname" title="Enter your first name" placeholder="First Name">
+            </div>
+            <div>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" id="lname" title="Enter your last name" placeholder="Last Name">
+            </div>
+            <div>
+                <label for="">Email: </label>
+                <input type="email" name="email" id="email" title="Enter your Email" placeholder="Email">
+            </div>
+            <div>
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass" title="Enter your password" placeholder="Password">
+            </div>
+            <div>
+                <label for="Upload">Upload your assignment: </label>
+                <input type="file" name="Upload" id="Upload">
+            </div>
+            <div>
+                <label for="">What are your hobbies and interests?</label>
+                <div>
+                    <input type="checkbox" name="interest" value="sports" id="interest1">
+                    <label for="interest1">Sports</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interest" value="esports" id="interest2">
+                    <label for="interest2">Esports</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interest" value="music" id="interest3">
+                    <label for="interest3">Music</label>
+                </div>
+            </div>
+            <div>
+                <label for="">Which OS do you prefer?</label>
+                <div>
+                    <input type="radio" name="os" value="windows" id="windows">
+                    <label for="windows">Windows</label>
+                </div>
+                <div>
+                    <input type="radio" name="os" value="mac" id="mac">
+                    <label for="mac">Mac</label>
+                </div>
+                <div>
+                    <input type="radio" name="os" value="linux" id="linux">
+                    <label for="linux">Linux</label>
+                </div>
+            </div>
+            <div>
+                <label for="weekend">What do you want to do this weekend?</label>
+                <div>
+                    <select name="weekend" id="weekend">
+                        <option value="empty">None</option>
+                        <option value="eat">Eat out</option>
+                        <option value="friends">Hang out with friends</option>
+                        <option value="sleep">Sleep in</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label for="web">Is there anything you want to ask?</label>
+                <div>
+                    <textarea name="web" id="web" rows="8" cols="30"></textarea>
+                </div>
+            </div>
+            <div>
+                <input type="date">
+                <input type="color">
+                <input type="number" max="20" min="1">
+            </div>
+    
+            <div>
+                <input type="submit">
+                <input type="reset">
+                <input type="button" value="OK">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Created by @pyrrhusm on Discord</p>
+    </footer>
+</body>
+</html>

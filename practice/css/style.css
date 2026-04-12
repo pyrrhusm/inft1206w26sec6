@@ -1,0 +1,81 @@
+/*
+Name: Pyrrhus MacKinnon
+File: style.css
+Date: 30 March 2026
+*/
+
+/* Importing the fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&family=UnifrakturMaguntia&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Open+Sans:wght@400;700&display=swap";
+
+/* Introducing the font */
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Body, Header, and Footer */
+
+body {
+    background-color: rgb(255, 208, 164);
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-image: url("https://wallpapercave.com/wp/wp4512652.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    border-bottom: 2rem solid;
+    border-color: hotpink;
+}
+
+footer {
+    border-top: 2rem solid;
+    border-color: blueviolet;
+}
+
+/* h1, h2, and p */
+
+h1, h2 {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    color: hotpink;
+    font-size: 3rem;
+    border-bottom: 5px dotted;
+    border-color: red;
+    font-family: 'Story Script', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Story Script', sans-serif;
+    color: rgb(43, 170, 255);
+}
+
+p {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+/* Images, Videos, etc. */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 2rem auto;
+}

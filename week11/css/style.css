@@ -1,0 +1,91 @@
+/*
+Name: Pyrrhus
+File: style.css
+Date: 30 March, 2026
+*/
+
+body {
+    max-width: 1000px;
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+    margin: 0 auto;
+    padding: 10px;
+    background-image: url("https://wallpapercave.com/wp/wp4512652.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header, main, footer {
+    background: linear-gradient(rgba(0, 50, 50, 0.5));
+    padding: 15px;
+}
+
+h1 {
+    color: blueviolet;
+    border-bottom: 5px solid;
+    border-color: aquamarine;
+    padding-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea {
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: hotpink;
+    color: blueviolet;
+    border-color: purple;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline;
+    padding: 2rem;
+    accent-color: hotpink;
+    color: blueviolet;
+}
+
+input::file-selector-button {
+  background-color: hotpink;
+  border: 2px solid purple;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  color: blue;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+select, ::picker(select) {
+  appearance: base-select; /* Opts into customizable base styles */
+}
+
+::picker-icon {
+  color: blue; /* Change the dropdown icon color */
+}
+
+option {
+  background-color: hotpink; /* Style individual options */
+  color: blue;
+}
+
+input[type="date"] {
+  background-color: hotpink; /* Change background color */
+  border: 1px solid purple; /* Add a border */
+  padding: 10px; /* Add padding */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font */
+  color: #333; /* Change text color */
+}
+
+input[type="color"], input[type="number"] {
+    background-color: hotpink;
+    border-color: purple;
+    display: block;
+}
