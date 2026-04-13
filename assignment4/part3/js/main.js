@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Creating the code for a ball bouncing web program
+ * @author Pyrrhus MacKinnon
+ * @date 2026-04-13
+ * @version 1.0.0
+ */
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
