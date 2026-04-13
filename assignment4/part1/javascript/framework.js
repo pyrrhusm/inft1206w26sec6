@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Creating the code for a random story generator
+ * @author Pyrrhus MacKinnon
+ * @date 2026-04-11
+ * @version 1.0.0
+ */
+
 // Complete variable definitions and random functions
 
 const customName = document.getElementById("custom-name");
