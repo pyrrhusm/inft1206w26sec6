@@ -9,6 +9,7 @@
 
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
+const para = document.querySelector("p");
 
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
@@ -192,11 +193,14 @@ function loop() {
   ctx.fillStyle = "rgb(0 0 0 / 25%)";
   ctx.fillRect(0, 0, width, height);
 
+  let count = 0;
+
   for (const ball of balls) {
     if (ball.exists) {
       ball.draw();
       ball.update();
       ball.collisionDetect();
+      count++;
     }
   }
 
@@ -204,7 +208,7 @@ function loop() {
   evilBall.checkBounds();
   evilBall.collisionDetect();
 
-
+  para.textContent = `Ball count: ${count}`
   requestAnimationFrame(loop);
 }
 
